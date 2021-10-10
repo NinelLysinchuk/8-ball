@@ -1,0 +1,78 @@
+.titleQuote{
+    color: rgb(31 31 187);
+    font-style: italic;
+    text-shadow: -1.3px 0px 1px rgb(31 38 117);
+    margin: 35px;
+    margin-left: 72px;
+}
+
+.buttonQuote{
+    border: none;
+    width: 45px;
+    border-radius: 4px;
+    color: rgb(29 29 171 / 0.8);
+    height: 45px;
+    font-weight: bold;
+    font-style: italic;
+    border: 0;
+    background: rgb(255 255 255 / 0.8);
+    border-radius: 25px;
+    /* font-size: xx-large; */
+    /* margin-left: 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonQuote:focus {
+    outline: 0;
+}
+
+.background{
+    background: black;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -4px -2px 13px 6px rgb(17 72 181);
+    margin-left: 15px;
+}
+
+.QuoteText{
+    /* margin-bottom: 10px; */
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(17 72 181);
+    /* margin-left: 20px; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.MainBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+}
+
+.tringle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+body {
+    background: black;
+}
+
+.triangle {
+    width: 35px;
+    /* height: 37px; */
+}
